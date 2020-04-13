@@ -11,7 +11,7 @@ const port = process.env.POT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb://localhost/Exercise";
+const uri = "mongodb://localhost/Exercise"; // Exercise is the name of my  mongodb database replace with you database name
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true  });
 const connection = mongoose.connection;
 connection.once('open', () => {
