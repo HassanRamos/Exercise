@@ -1,3 +1,4 @@
+MERN STACK Exercise tracker made `with Rect js, express, mongodb,nodej
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
